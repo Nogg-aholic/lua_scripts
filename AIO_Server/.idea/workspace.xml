@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a76bbc6-209b-4e91-bb64-9e50702040e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Variables/GlobalVariables.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/TrinityCore/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/TrinityCore/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/TrinityCore/v15/Solution.VC.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/TrinityCore/v15/Solution.VC.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.vs/TrinityCore/v15/Solution.VC.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.vs/TrinityCore/v15/Solution.VC.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/ChrClasses.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/ChrClasses.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/CurrencyCategory.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/CurrencyCategory.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/CurrencyTypes.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/CurrencyTypes.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/ItemDisplayInfo.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/ItemDisplayInfo.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/SkillLineAbility.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/SkillLineAbility.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/SkillRaceClassInfo.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/SkillRaceClassInfo.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/Spell.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/Spell.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/Talent.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/Talent.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/dbc/TalentTab.dbc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/dbc/TalentTab.dbc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/lua_scripts/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/lua_scripts/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/lua_scripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/lua_scripts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/lua_scripts/AIO_Server/TalentPatch/Handler.lua" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/lua_scripts/AIO_Server/TalentPatch/Handler.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../bin/Release/worldserver.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../bin/Release/worldserver.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/CL.1032.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/CL.1032.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../dep/g3dlite/g3dlib.dir/Debug/g3dlib.tlog/unsuccessfulbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../revision_data.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../revision_data.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../genrev/x64/Debug/revision_data.h/revision_data.h.tlog/custombuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../genrev/x64/Debug/revision_data.h/revision_data.h.tlog/custombuild.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../genrev/x64/Debug/revision_data.h/revision_data.h.tlog/custombuild.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../genrev/x64/Debug/revision_data.h/revision_data.h.tlog/custombuild.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.res" beforeDir="false" afterPath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../authserver/authserver.dir/Release/authserver.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../database/database.dir/Release/database.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/database.dir/Release/database.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../database/database.dir/Release/database.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/database.dir/Release/database.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../database/database.dir/Release/database.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../database/database.dir/Release/database.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../game/game.dir/Release/game.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../game/game.dir/Release/game.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../game/game.dir/Release/game.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../game/game.dir/Release/game.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../game/game.dir/Release/game.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../game/game.dir/Release/game.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../scripts/scripts.dir/Release/scripts.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scripts/scripts.dir/Release/scripts.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../scripts/scripts.dir/Release/scripts.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scripts/scripts.dir/Release/scripts.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shared/shared.dir/Release/shared.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../shared/shared.dir/Release/shared.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shared/shared.dir/Release/shared.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../shared/shared.dir/Release/shared.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shared/shared.dir/Release/shared.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../shared/shared.dir/Release/shared.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../worldserver.dir/Release/worldserver.res" beforeDir="false" afterPath="$PROJECT_DIR$/../../worldserver.dir/Release/worldserver.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../worldserver.dir/Release/worldserver.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../worldserver.dir/Release/worldserver.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../worldserver.dir/Release/worldserver.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../worldserver.dir/Release/worldserver.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../tools/map_extractor/mapextractor.dir/Release/mapextractor.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../tools/map_extractor/mapextractor.dir/Release/mapextractor.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../tools/mmaps_generator/mmaps_generator.dir/Release/mmaps_generator.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../tools/mmaps_generator/mmaps_generator.dir/Release/mmaps_generator.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../tools/vmap4_assembler/vmap4assembler.dir/Release/vmap4assembler.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../tools/vmap4_assembler/vmap4assembler.dir/Release/vmap4assembler.tlog/link.read.1.tlog" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-109718783">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="lua" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="lua" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="lua" value="2006" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="lua" value="2006" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-725790206">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="lua" value="112" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="lua" value="112" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="383669650">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="lua" value="12462" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="lua" value="12462" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="lua" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="lua" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TalentPatch/Handler.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="1503" lean-forward="true" selection-start-line="1503" selection-end-line="1503" />
+              <folding>
+                <element signature="e#0#113#0" />
+                <element signature="e#12112#24894#1" />
+                <element signature="e#12128#12483#0" />
+                <element signature="e#12497#13314#0" />
+                <element signature="e#13334#13679#0" />
+                <element signature="e#13698#14114#0" />
+                <element signature="e#14133#14730#0" />
+                <element signature="e#14749#14973#0" />
+                <element signature="e#14993#15664#0" />
+                <element signature="e#15681#16146#0" />
+                <element signature="e#16163#16821#0" />
+                <element signature="e#16834#17145#0" />
+                <element signature="e#17159#17652#0" />
+                <element signature="e#17671#18002#0" />
+                <element signature="e#18017#18634#0" />
+                <element signature="e#18647#18843#0" />
+                <element signature="e#18861#19078#0" />
+                <element signature="e#19095#19634#0" />
+                <element signature="e#19651#20263#0" />
+                <element signature="e#20277#20627#0" />
+                <element signature="e#20641#20935#0" />
+                <element signature="e#20954#21358#0" />
+                <element signature="e#21373#21725#0" />
+                <element signature="e#21743#22288#0" />
+                <element signature="e#22308#23040#0" />
+                <element signature="e#23059#23477#0" />
+                <element signature="e#23498#23797#0" />
+                <element signature="e#23812#24039#0" />
+                <element signature="e#24056#24390#0" />
+                <element signature="e#24404#24660#0" />
+                <element signature="e#24675#24785#0" />
+                <element signature="e#24800#24892#0" />
+                <element signature="e#24944#37407#1" />
+                <element signature="e#37481#38910#1" />
+                <element signature="e#38925#41113#1" />
+                <element signature="e#29300#41144#1" />
+                <element signature="e#29316#29638#0" />
+                <element signature="e#62356#62402#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Felcom/Felcom.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="699" selection-start-line="699" selection-end-line="699" />
+              <folding>
+                <element signature="e#105#308#0" />
+                <element signature="e#332#482#1" />
+                <element signature="e#504#778#1" />
+                <element signature="e#801#1684#1" />
+                <element signature="e#1707#6179#1" />
+                <element signature="e#6203#9309#1" />
+                <element signature="e#9332#9606#1" />
+                <element signature="e#9722#12151#1" />
+                <element signature="e#12204#12512#0" />
+                <element signature="e#12296#12508#0" />
+                <element signature="e#12554#15435#0" />
+                <element signature="e#12836#14808#0" />
+                <element signature="e#14245#14778#1" />
+                <element signature="e#14812#15382#0" />
+                <element signature="e#14827#15269#1" />
+                <element signature="e#15684#15898#0" />
+                <element signature="e#15801#15890#0" />
+                <element signature="e#15831#15835#0" />
+                <element signature="e#15878#15881#0" />
+                <element signature="e#15920#16875#0" />
+                <element signature="e#16002#16867#0" />
+                <element signature="e#16047#16051#0" />
+                <element signature="e#16153#16159#0" />
+                <element signature="e#16189#16193#0" />
+                <element signature="e#16294#16300#0" />
+                <element signature="e#16330#16334#0" />
+                <element signature="e#16436#16442#0" />
+                <element signature="e#16471#16475#0" />
+                <element signature="e#16577#16583#0" />
+                <element signature="e#16612#16616#0" />
+                <element signature="e#16717#16723#0" />
+                <element signature="e#16751#16755#0" />
+                <element signature="e#16855#16858#0" />
+                <element signature="e#16898#17062#0" />
+                <element signature="e#16942#17054#0" />
+                <element signature="e#17231#22392#0" />
+                <element signature="e#17657#18500#0" />
+                <element signature="e#17733#18492#0" />
+                <element signature="e#17839#18104#0" />
+                <element signature="e#18168#18479#0" />
+                <element signature="e#18202#18463#0" />
+                <element signature="e#18740#19039#0" />
+                <element signature="e#18780#19027#0" />
+                <element signature="e#18903#19011#0" />
+                <element signature="e#19099#19420#0" />
+                <element signature="e#19161#19408#0" />
+                <element signature="e#19284#19392#0" />
+                <element signature="e#19502#19845#0" />
+                <element signature="e#19586#19833#0" />
+                <element signature="e#19709#19817#0" />
+                <element signature="e#20175#20581#0" />
+                <element signature="e#20375#20565#0" />
+                <element signature="e#20605#21816#0" />
+                <element signature="e#20632#21059#0" />
+                <element signature="e#21081#21408#0" />
+                <element signature="e#21430#21658#0" />
+                <element signature="e#21680#21808#0" />
+                <element signature="e#22325#22330#0" />
+                <element signature="e#22334#22526#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Felcom/Felcom_Client.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#73#172#0" />
+                <element signature="e#14535#14663#0" />
+                <element signature="e#14558#14655#0" />
+                <element signature="e#14683#15412#0" />
+                <element signature="e#14980#15133#0" />
+                <element signature="e#15137#15151#0" />
+                <element signature="e#15456#17040#0" />
+                <element signature="e#15501#15756#0" />
+                <element signature="e#15575#15748#0" />
+                <element signature="e#15624#15736#0" />
+                <element signature="e#15894#16009#0" />
+                <element signature="e#15930#16001#0" />
+                <element signature="e#16038#16256#0" />
+                <element signature="e#16113#16248#0" />
+                <element signature="e#16153#16236#0" />
+                <element signature="e#16285#16503#0" />
+                <element signature="e#16360#16495#0" />
+                <element signature="e#16400#16483#0" />
+                <element signature="e#16532#16750#0" />
+                <element signature="e#16607#16742#0" />
+                <element signature="e#16647#16730#0" />
+                <element signature="e#17611#17969#0" />
+                <element signature="e#17659#17961#0" />
+                <element signature="e#18724#18994#0" />
+                <element signature="e#19033#19042#0" />
+                <element signature="e#19381#22203#0" />
+                <element signature="e#22253#23032#0" />
+                <element signature="e#22353#22689#0" />
+                <element signature="e#22693#23028#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Variables/GlobalVariables.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="616" column="2" lean-forward="true" selection-start-line="616" selection-start-column="2" selection-end-line="616" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" />
+                <element signature="e#0#117#0" />
+                <element signature="e#129#12912#1" />
+                <element signature="e#145#500#0" />
+                <element signature="e#514#1331#0" />
+                <element signature="e#1351#1696#0" />
+                <element signature="e#1715#2131#0" />
+                <element signature="e#2150#2747#0" />
+                <element signature="e#2766#2990#0" />
+                <element signature="e#3010#3681#0" />
+                <element signature="e#3698#4163#0" />
+                <element signature="e#4180#4838#0" />
+                <element signature="e#4851#5162#0" />
+                <element signature="e#5176#5669#0" />
+                <element signature="e#5688#6019#0" />
+                <element signature="e#6034#6651#0" />
+                <element signature="e#6664#6860#0" />
+                <element signature="e#6878#7095#0" />
+                <element signature="e#7112#7651#0" />
+                <element signature="e#7668#8280#0" />
+                <element signature="e#8294#8644#0" />
+                <element signature="e#8658#8952#0" />
+                <element signature="e#8971#9375#0" />
+                <element signature="e#9390#9742#0" />
+                <element signature="e#9760#10305#0" />
+                <element signature="e#10325#11057#0" />
+                <element signature="e#11076#11494#0" />
+                <element signature="e#11515#11814#0" />
+                <element signature="e#11829#12056#0" />
+                <element signature="e#12073#12407#0" />
+                <element signature="e#12421#12678#0" />
+                <element signature="e#12693#12803#0" />
+                <element signature="e#12818#12910#0" />
+                <element signature="e#12967#15180#1" />
+                <element signature="e#15205#15355#1" />
+                <element signature="e#15377#15651#1" />
+                <element signature="e#15674#16557#1" />
+                <element signature="e#16580#21052#1" />
+                <element signature="e#21076#24182#1" />
+                <element signature="e#24205#24479#1" />
+                <element signature="e#24501#26930#1" />
+                <element signature="e#24751#24847#0" />
+                <element signature="e#24794#24798#0" />
+                <element signature="e#24843#24846#0" />
+                <element signature="e#24918#24922#0" />
+                <element signature="e#24943#24946#0" />
+                <element signature="e#24965#24969#0" />
+                <element signature="e#24990#24993#0" />
+                <element signature="e#25204#25330#0" />
+                <element signature="e#25222#25326#0" />
+                <element signature="e#25240#25244#0" />
+                <element signature="e#25285#25289#0" />
+                <element signature="e#25285#25289#0" />
+                <element signature="e#25318#25321#0" />
+                <element signature="e#25364#26236#0" />
+                <element signature="e#25471#25752#0" />
+                <element signature="e#25512#25516#0" />
+                <element signature="e#25565#25571#0" />
+                <element signature="e#25607#25712#0" />
+                <element signature="e#25712#25716#0" />
+                <element signature="e#25744#25747#0" />
+                <element signature="e#25893#26124#0" />
+                <element signature="e#25917#25921#0" />
+                <element signature="e#25971#25977#0" />
+                <element signature="e#25997#26116#0" />
+                <element signature="e#26164#26166#0" />
+                <element signature="e#26232#26235#0" />
+                <element signature="e#26295#26299#0" />
+                <element signature="e#26320#26323#0" />
+                <element signature="e#26513#26638#0" />
+                <element signature="e#26563#26567#0" />
+                <element signature="e#26599#26603#0" />
+                <element signature="e#26599#26603#0" />
+                <element signature="e#26630#26633#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AIO.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="288" column="21" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="21" />
+              <folding>
+                <element signature="n#!!doc" />
+                <element signature="e#792#6843#0" />
+                <element signature="e#10386#10387#0" />
+                <element signature="e#10410#10413#0" />
+                <element signature="e#10480#10481#0" />
+                <element signature="e#10500#10503#0" />
+                <element signature="e#11617#11670#1" />
+                <element signature="e#13200#13468#0" />
+                <element signature="e#13641#13846#0" />
+                <element signature="e#13934#14085#0" />
+                <element signature="e#13959#14081#0" />
+                <element signature="e#14178#14248#0" />
+                <element signature="e#14500#15220#0" />
+                <element signature="e#14829#15178#0" />
+                <element signature="e#14900#15155#0" />
+                <element signature="e#15374#15566#0" />
+                <element signature="e#15680#16310#0" />
+                <element signature="e#15730#16306#0" />
+                <element signature="e#15752#15996#0" />
+                <element signature="e#15815#15984#0" />
+                <element signature="e#16000#16298#0" />
+                <element signature="e#16125#16254#0" />
+                <element signature="e#16347#16815#0" />
+                <element signature="e#16488#16811#0" />
+                <element signature="e#16544#16803#0" />
+                <element signature="e#16615#16754#0" />
+                <element signature="e#16903#17229#0" />
+                <element signature="e#17020#17183#0" />
+                <element signature="e#17095#17175#0" />
+                <element signature="e#17275#17398#0" />
+                <element signature="e#17601#17843#0" />
+                <element signature="e#18073#19924#0" />
+                <element signature="e#18537#19754#0" />
+                <element signature="e#18671#18825#0" />
+                <element signature="e#18700#18816#1" />
+                <element signature="e#19823#19920#0" />
+                <element signature="e#20484#20634#0" />
+                <element signature="e#20776#21043#0" />
+                <element signature="e#20862#20998#0" />
+                <element signature="e#21122#21267#0" />
+                <element signature="e#21353#21470#0" />
+                <element signature="e#21549#21679#0" />
+                <element signature="e#22088#22192#0" />
+                <element signature="e#22366#23550#0" />
+                <element signature="e#22548#22749#0" />
+                <element signature="e#23046#23151#0" />
+                <element signature="e#23313#23546#0" />
+                <element signature="e#23434#23538#0" />
+                <element signature="e#23846#24641#0" />
+                <element signature="e#23906#24001#0" />
+                <element signature="e#24257#24342#0" />
+                <element signature="e#24916#28225#0" />
+                <element signature="e#25057#25201#0" />
+                <element signature="e#25643#25764#0" />
+                <element signature="e#25961#26091#0" />
+                <element signature="e#25986#26086#1" />
+                <element signature="e#26382#26741#0" />
+                <element signature="e#26409#26509#0" />
+                <element signature="e#26876#28029#0" />
+                <element signature="e#26947#27716#0" />
+                <element signature="e#27125#27704#0" />
+                <element signature="e#27347#27505#0" />
+                <element signature="e#27889#28021#0" />
+                <element signature="e#28103#28221#0" />
+                <element signature="e#28616#28895#0" />
+                <element signature="e#29303#29778#0" />
+                <element signature="e#29611#29713#0" />
+                <element signature="e#30159#30450#0" />
+                <element signature="e#30182#30446#0" />
+                <element signature="e#30473#35168#0" />
+                <element signature="e#30585#30772#0" />
+                <element signature="e#31261#31725#0" />
+                <element signature="e#32068#32180#0" />
+                <element signature="e#32350#32449#0" />
+                <element signature="e#33002#34368#0" />
+                <element signature="e#33529#33593#0" />
+                <element signature="e#33741#34120#0" />
+                <element signature="e#34512#34636#0" />
+                <element signature="e#34861#35024#0" />
+                <element signature="e#35172#44500#0" />
+                <element signature="e#35277#35393#0" />
+                <element signature="e#35665#35756#0" />
+                <element signature="e#36034#36129#0" />
+                <element signature="e#36517#36960#0" />
+                <element signature="e#37142#37415#0" />
+                <element signature="e#37185#37407#0" />
+                <element signature="e#37869#38307#0" />
+                <element signature="e#38377#39738#0" />
+                <element signature="e#38417#38698#0" />
+                <element signature="e#38539#38540#0" />
+                <element signature="e#38874#39304#0" />
+                <element signature="e#38927#39067#0" />
+                <element signature="e#39088#39175#0" />
+                <element signature="e#39391#39513#0" />
+                <element signature="e#39839#40311#0" />
+                <element signature="e#40410#40476#0" />
+                <element signature="e#40798#44450#0" />
+                <element signature="e#40864#43854#0" />
+                <element signature="e#41950#42124#0" />
+                <element signature="e#42172#42356#0" />
+                <element signature="e#42699#42974#0" />
+                <element signature="e#43289#43762#0" />
+                <element signature="e#43324#43518#0" />
+                <element signature="e#43558#43684#0" />
+                <element signature="e#43890#44442#0" />
+                <element signature="e#44843#44956#0" />
+                <element signature="e#44979#45544#0" />
+                <element signature="e#45028#45501#0" />
+                <element signature="e#45187#45383#0" />
+                <element signature="e#45225#45371#0" />
+                <element signature="e#45275#45355#0" />
+                <element signature="e#45548#45943#0" />
+                <element signature="e#45607#45939#0" />
+                <element signature="e#45673#45857#0" />
+                <element signature="e#45711#45845#0" />
+                <element signature="e#45761#45829#0" />
+                <element signature="e#46088#46264#0" />
+                <element signature="e#46290#46474#0" />
+                <element signature="e#46426#46470#0" />
+                <element signature="e#46568#46702#0" />
+                <element signature="e#46783#46931#0" />
+                <element signature="e#46998#47120#0" />
+                <element signature="e#47219#47350#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_PLUGINS_DIR$/EmmyLua/lib/EmmyLua-1.2.6-IDEA182.jar!/std/Lua53/table.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="902">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="NewLua" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sortedTabPointsSpentBuf</find>
+      <find>MAX_TALENT_TABS</find>
+      <find>3</find>
+      <find>4</find>
+      <find>Learn</find>
+      <find>2908</find>
+      <find>CONFIRM_LEARN_PREVIEW_TALENTS</find>
+      <find>SuperTalentFrame_Update</find>
+      <find>shadow bolt</find>
+      <find>SetTab</find>
+      <find>Increase Spell Dam</find>
+      <find>Attack Power</find>
+      <find>Increased Parry</find>
+      <find>Attack_power</find>
+      <find>ITEM_MOD_STAMINA_SHORT</find>
+      <find>ipairs</find>
+      <find>felcombtn</find>
+      <find>felcombtn:SetPoint(&quot;TOPLEFT&quot;, button.parent , &quot;TOPLEFT&quot;, 0, 0);</find>
+      <find>felcombtn.FelcomEnabled = false;</find>
+      <find>felcombtn.FelcomEnabled = 1;</find>
+      <find>felcombtn.FelcomEnabled = 0;</find>
+      <find>GetUInt32</find>
+      <find>CalculateFelComGearCost</find>
+      <find>GLOBAL_EELCOM_STATMOD</find>
+      <find>GLOBAL_FELCOM_PRICEDIVICE</find>
+      <find>print</find>
+      <find>ipair</find>
+      <find>order</find>
+      <find>print(</find>
+      <find>VBM_Delay</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>==</replace>
+      <replace>]</replace>
+      <replace>] =</replace>
+      <replace>felcombtn:SetPoint(&quot;TOPLEFT&quot;, felcombtn.parent , &quot;TOPLEFT&quot;, 0, 0);</replace>
+      <replace>felcombtn.FelcomEnabled = 0;</replace>
+      <replace>felcombtn= PaperDoll_Felcom_CreateButton(pp,boolTable[pp:GetID()]);</replace>
+      <replace>GetInt8</replace>
+      <replace>GLOBAL_FELCOM_PRICEDIVIDE</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Trinity\bin\Debug\lua_scripts\AIO_Server</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TalentPatch/Blizzard_TalentUI.lua" />
+        <option value="$PROJECT_DIR$/TalentPatch/TalentFrameBase.lua" />
+        <option value="$PROJECT_DIR$/Felcom.lua" />
+        <option value="$PROJECT_DIR$/PersistentVariables_Client.lua" />
+        <option value="$PROJECT_DIR$/Felcom/Felcom.lua" />
+        <option value="$PROJECT_DIR$/TalentPatch/Handler.lua" />
+        <option value="$PROJECT_DIR$/AIO.lua" />
+        <option value="$PROJECT_DIR$/Felcom/Felcom_Client.lua" />
+        <option value="$PROJECT_DIR$/Variables/GlobalVariables.lua" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1937" />
+    <option name="height" value="2118" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AIO_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIO_Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIO_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIO_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Felcom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIO_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIO_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="TalentPatch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIO_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AIO_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Variables" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552541122460" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Build\src\server\worldserver\lua_scripts\AIO_Server\Felcom" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a76bbc6-209b-4e91-bb64-9e50702040e7" name="Default Changelist" comment="" />
+      <created>1550941171986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550941171986</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="0" width="1549" height="1694" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20819342" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="LuaCheck" order="7" visible="true" weight="0.02434337" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="lua-line">
+          <url>file://$PROJECT_DIR$/TalentPatch/Handler.lua</url>
+          <line>952</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="lua-line">
+          <url>file://$PROJECT_DIR$/TalentPatch/Handler.lua</url>
+          <line>1489</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="lua-line">
+          <url>file://$PROJECT_DIR$/Felcom/Felcom.lua</url>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="lua-line">
+          <url>file://$PROJECT_DIR$/Felcom/Felcom.lua</url>
+          <line>723</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TalentPatch/Blizzard_TalentUI.lua" />
+    <entry file="file://$PROJECT_DIR$/TalentPatch/TalentFrameBase.lua" />
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/EmmyLua/lib/EmmyLua-1.2.6-IDEA182.jar!/std/Lua53/table.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PersistentVariables_Client.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="890" lean-forward="true" selection-start-line="890" selection-end-line="890" />
+          <folding>
+            <element signature="e#562#661#0" />
+            <element signature="e#682#2895#1" />
+            <element signature="e#2895#3045#1" />
+            <element signature="e#3067#3341#1" />
+            <element signature="e#3364#4247#1" />
+            <element signature="e#4270#8742#1" />
+            <element signature="e#8766#11872#1" />
+            <element signature="e#11895#12169#1" />
+            <element signature="e#12216#14645#1" />
+            <element signature="e#16546#17716#0" />
+            <element signature="e#16692#17054#0" />
+            <element signature="e#16794#17044#0" />
+            <element signature="e#16973#17712#0" />
+            <element signature="e#17405#17640#0" />
+            <element signature="e#17457#17610#0" />
+            <element signature="e#17614#17628#0" />
+            <element signature="e#15400#16984#0" />
+            <element signature="e#17041#18226#0" />
+            <element signature="e#18344#19338#0" />
+            <element signature="e#15402#18219#0" />
+            <element signature="e#18275#19028#0" />
+            <element signature="e#18375#18683#0" />
+            <element signature="e#18687#19024#0" />
+            <element signature="e#19052#19200#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TalentPatch/Handler.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="1503" lean-forward="true" selection-start-line="1503" selection-end-line="1503" />
+          <folding>
+            <element signature="e#0#113#0" />
+            <element signature="e#12112#24894#1" />
+            <element signature="e#12128#12483#0" />
+            <element signature="e#12497#13314#0" />
+            <element signature="e#13334#13679#0" />
+            <element signature="e#13698#14114#0" />
+            <element signature="e#14133#14730#0" />
+            <element signature="e#14749#14973#0" />
+            <element signature="e#14993#15664#0" />
+            <element signature="e#15681#16146#0" />
+            <element signature="e#16163#16821#0" />
+            <element signature="e#16834#17145#0" />
+            <element signature="e#17159#17652#0" />
+            <element signature="e#17671#18002#0" />
+            <element signature="e#18017#18634#0" />
+            <element signature="e#18647#18843#0" />
+            <element signature="e#18861#19078#0" />
+            <element signature="e#19095#19634#0" />
+            <element signature="e#19651#20263#0" />
+            <element signature="e#20277#20627#0" />
+            <element signature="e#20641#20935#0" />
+            <element signature="e#20954#21358#0" />
+            <element signature="e#21373#21725#0" />
+            <element signature="e#21743#22288#0" />
+            <element signature="e#22308#23040#0" />
+            <element signature="e#23059#23477#0" />
+            <element signature="e#23498#23797#0" />
+            <element signature="e#23812#24039#0" />
+            <element signature="e#24056#24390#0" />
+            <element signature="e#24404#24660#0" />
+            <element signature="e#24675#24785#0" />
+            <element signature="e#24800#24892#0" />
+            <element signature="e#24944#37407#1" />
+            <element signature="e#37481#38910#1" />
+            <element signature="e#38925#41113#1" />
+            <element signature="e#29300#41144#1" />
+            <element signature="e#29316#29638#0" />
+            <element signature="e#62356#62402#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Variables/GlobalVariables.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="616" column="2" lean-forward="true" selection-start-line="616" selection-start-column="2" selection-end-line="616" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#0#117#0" />
+            <element signature="e#129#12912#1" />
+            <element signature="e#145#500#0" />
+            <element signature="e#514#1331#0" />
+            <element signature="e#1351#1696#0" />
+            <element signature="e#1715#2131#0" />
+            <element signature="e#2150#2747#0" />
+            <element signature="e#2766#2990#0" />
+            <element signature="e#3010#3681#0" />
+            <element signature="e#3698#4163#0" />
+            <element signature="e#4180#4838#0" />
+            <element signature="e#4851#5162#0" />
+            <element signature="e#5176#5669#0" />
+            <element signature="e#5688#6019#0" />
+            <element signature="e#6034#6651#0" />
+            <element signature="e#6664#6860#0" />
+            <element signature="e#6878#7095#0" />
+            <element signature="e#7112#7651#0" />
+            <element signature="e#7668#8280#0" />
+            <element signature="e#8294#8644#0" />
+            <element signature="e#8658#8952#0" />
+            <element signature="e#8971#9375#0" />
+            <element signature="e#9390#9742#0" />
+            <element signature="e#9760#10305#0" />
+            <element signature="e#10325#11057#0" />
+            <element signature="e#11076#11494#0" />
+            <element signature="e#11515#11814#0" />
+            <element signature="e#11829#12056#0" />
+            <element signature="e#12073#12407#0" />
+            <element signature="e#12421#12678#0" />
+            <element signature="e#12693#12803#0" />
+            <element signature="e#12818#12910#0" />
+            <element signature="e#12967#15180#1" />
+            <element signature="e#15205#15355#1" />
+            <element signature="e#15377#15651#1" />
+            <element signature="e#15674#16557#1" />
+            <element signature="e#16580#21052#1" />
+            <element signature="e#21076#24182#1" />
+            <element signature="e#24205#24479#1" />
+            <element signature="e#24501#26930#1" />
+            <element signature="e#24751#24847#0" />
+            <element signature="e#24794#24798#0" />
+            <element signature="e#24843#24846#0" />
+            <element signature="e#24918#24922#0" />
+            <element signature="e#24943#24946#0" />
+            <element signature="e#24965#24969#0" />
+            <element signature="e#24990#24993#0" />
+            <element signature="e#25204#25330#0" />
+            <element signature="e#25222#25326#0" />
+            <element signature="e#25240#25244#0" />
+            <element signature="e#25285#25289#0" />
+            <element signature="e#25285#25289#0" />
+            <element signature="e#25318#25321#0" />
+            <element signature="e#25364#26236#0" />
+            <element signature="e#25471#25752#0" />
+            <element signature="e#25512#25516#0" />
+            <element signature="e#25565#25571#0" />
+            <element signature="e#25607#25712#0" />
+            <element signature="e#25712#25716#0" />
+            <element signature="e#25744#25747#0" />
+            <element signature="e#25893#26124#0" />
+            <element signature="e#25917#25921#0" />
+            <element signature="e#25971#25977#0" />
+            <element signature="e#25997#26116#0" />
+            <element signature="e#26164#26166#0" />
+            <element signature="e#26232#26235#0" />
+            <element signature="e#26295#26299#0" />
+            <element signature="e#26320#26323#0" />
+            <element signature="e#26513#26638#0" />
+            <element signature="e#26563#26567#0" />
+            <element signature="e#26599#26603#0" />
+            <element signature="e#26599#26603#0" />
+            <element signature="e#26630#26633#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Felcom/Felcom.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="699" selection-start-line="699" selection-end-line="699" />
+          <folding>
+            <element signature="e#105#308#0" />
+            <element signature="e#332#482#1" />
+            <element signature="e#504#778#1" />
+            <element signature="e#801#1684#1" />
+            <element signature="e#1707#6179#1" />
+            <element signature="e#6203#9309#1" />
+            <element signature="e#9332#9606#1" />
+            <element signature="e#9722#12151#1" />
+            <element signature="e#12204#12512#0" />
+            <element signature="e#12296#12508#0" />
+            <element signature="e#12554#15435#0" />
+            <element signature="e#12836#14808#0" />
+            <element signature="e#14245#14778#1" />
+            <element signature="e#14812#15382#0" />
+            <element signature="e#14827#15269#1" />
+            <element signature="e#15684#15898#0" />
+            <element signature="e#15801#15890#0" />
+            <element signature="e#15831#15835#0" />
+            <element signature="e#15878#15881#0" />
+            <element signature="e#15920#16875#0" />
+            <element signature="e#16002#16867#0" />
+            <element signature="e#16047#16051#0" />
+            <element signature="e#16153#16159#0" />
+            <element signature="e#16189#16193#0" />
+            <element signature="e#16294#16300#0" />
+            <element signature="e#16330#16334#0" />
+            <element signature="e#16436#16442#0" />
+            <element signature="e#16471#16475#0" />
+            <element signature="e#16577#16583#0" />
+            <element signature="e#16612#16616#0" />
+            <element signature="e#16717#16723#0" />
+            <element signature="e#16751#16755#0" />
+            <element signature="e#16855#16858#0" />
+            <element signature="e#16898#17062#0" />
+            <element signature="e#16942#17054#0" />
+            <element signature="e#17231#22392#0" />
+            <element signature="e#17657#18500#0" />
+            <element signature="e#17733#18492#0" />
+            <element signature="e#17839#18104#0" />
+            <element signature="e#18168#18479#0" />
+            <element signature="e#18202#18463#0" />
+            <element signature="e#18740#19039#0" />
+            <element signature="e#18780#19027#0" />
+            <element signature="e#18903#19011#0" />
+            <element signature="e#19099#19420#0" />
+            <element signature="e#19161#19408#0" />
+            <element signature="e#19284#19392#0" />
+            <element signature="e#19502#19845#0" />
+            <element signature="e#19586#19833#0" />
+            <element signature="e#19709#19817#0" />
+            <element signature="e#20175#20581#0" />
+            <element signature="e#20375#20565#0" />
+            <element signature="e#20605#21816#0" />
+            <element signature="e#20632#21059#0" />
+            <element signature="e#21081#21408#0" />
+            <element signature="e#21430#21658#0" />
+            <element signature="e#21680#21808#0" />
+            <element signature="e#22325#22330#0" />
+            <element signature="e#22334#22526#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Felcom/Felcom_Client.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#73#172#0" />
+            <element signature="e#14535#14663#0" />
+            <element signature="e#14558#14655#0" />
+            <element signature="e#14683#15412#0" />
+            <element signature="e#14980#15133#0" />
+            <element signature="e#15137#15151#0" />
+            <element signature="e#15456#17040#0" />
+            <element signature="e#15501#15756#0" />
+            <element signature="e#15575#15748#0" />
+            <element signature="e#15624#15736#0" />
+            <element signature="e#15894#16009#0" />
+            <element signature="e#15930#16001#0" />
+            <element signature="e#16038#16256#0" />
+            <element signature="e#16113#16248#0" />
+            <element signature="e#16153#16236#0" />
+            <element signature="e#16285#16503#0" />
+            <element signature="e#16360#16495#0" />
+            <element signature="e#16400#16483#0" />
+            <element signature="e#16532#16750#0" />
+            <element signature="e#16607#16742#0" />
+            <element signature="e#16647#16730#0" />
+            <element signature="e#17611#17969#0" />
+            <element signature="e#17659#17961#0" />
+            <element signature="e#18724#18994#0" />
+            <element signature="e#19033#19042#0" />
+            <element signature="e#19381#22203#0" />
+            <element signature="e#22253#23032#0" />
+            <element signature="e#22353#22689#0" />
+            <element signature="e#22693#23028#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AIO.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="288" column="21" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#792#6843#0" />
+            <element signature="e#10386#10387#0" />
+            <element signature="e#10410#10413#0" />
+            <element signature="e#10480#10481#0" />
+            <element signature="e#10500#10503#0" />
+            <element signature="e#11617#11670#1" />
+            <element signature="e#13200#13468#0" />
+            <element signature="e#13641#13846#0" />
+            <element signature="e#13934#14085#0" />
+            <element signature="e#13959#14081#0" />
+            <element signature="e#14178#14248#0" />
+            <element signature="e#14500#15220#0" />
+            <element signature="e#14829#15178#0" />
+            <element signature="e#14900#15155#0" />
+            <element signature="e#15374#15566#0" />
+            <element signature="e#15680#16310#0" />
+            <element signature="e#15730#16306#0" />
+            <element signature="e#15752#15996#0" />
+            <element signature="e#15815#15984#0" />
+            <element signature="e#16000#16298#0" />
+            <element signature="e#16125#16254#0" />
+            <element signature="e#16347#16815#0" />
+            <element signature="e#16488#16811#0" />
+            <element signature="e#16544#16803#0" />
+            <element signature="e#16615#16754#0" />
+            <element signature="e#16903#17229#0" />
+            <element signature="e#17020#17183#0" />
+            <element signature="e#17095#17175#0" />
+            <element signature="e#17275#17398#0" />
+            <element signature="e#17601#17843#0" />
+            <element signature="e#18073#19924#0" />
+            <element signature="e#18537#19754#0" />
+            <element signature="e#18671#18825#0" />
+            <element signature="e#18700#18816#1" />
+            <element signature="e#19823#19920#0" />
+            <element signature="e#20484#20634#0" />
+            <element signature="e#20776#21043#0" />
+            <element signature="e#20862#20998#0" />
+            <element signature="e#21122#21267#0" />
+            <element signature="e#21353#21470#0" />
+            <element signature="e#21549#21679#0" />
+            <element signature="e#22088#22192#0" />
+            <element signature="e#22366#23550#0" />
+            <element signature="e#22548#22749#0" />
+            <element signature="e#23046#23151#0" />
+            <element signature="e#23313#23546#0" />
+            <element signature="e#23434#23538#0" />
+            <element signature="e#23846#24641#0" />
+            <element signature="e#23906#24001#0" />
+            <element signature="e#24257#24342#0" />
+            <element signature="e#24916#28225#0" />
+            <element signature="e#25057#25201#0" />
+            <element signature="e#25643#25764#0" />
+            <element signature="e#25961#26091#0" />
+            <element signature="e#25986#26086#1" />
+            <element signature="e#26382#26741#0" />
+            <element signature="e#26409#26509#0" />
+            <element signature="e#26876#28029#0" />
+            <element signature="e#26947#27716#0" />
+            <element signature="e#27125#27704#0" />
+            <element signature="e#27347#27505#0" />
+            <element signature="e#27889#28021#0" />
+            <element signature="e#28103#28221#0" />
+            <element signature="e#28616#28895#0" />
+            <element signature="e#29303#29778#0" />
+            <element signature="e#29611#29713#0" />
+            <element signature="e#30159#30450#0" />
+            <element signature="e#30182#30446#0" />
+            <element signature="e#30473#35168#0" />
+            <element signature="e#30585#30772#0" />
+            <element signature="e#31261#31725#0" />
+            <element signature="e#32068#32180#0" />
+            <element signature="e#32350#32449#0" />
+            <element signature="e#33002#34368#0" />
+            <element signature="e#33529#33593#0" />
+            <element signature="e#33741#34120#0" />
+            <element signature="e#34512#34636#0" />
+            <element signature="e#34861#35024#0" />
+            <element signature="e#35172#44500#0" />
+            <element signature="e#35277#35393#0" />
+            <element signature="e#35665#35756#0" />
+            <element signature="e#36034#36129#0" />
+            <element signature="e#36517#36960#0" />
+            <element signature="e#37142#37415#0" />
+            <element signature="e#37185#37407#0" />
+            <element signature="e#37869#38307#0" />
+            <element signature="e#38377#39738#0" />
+            <element signature="e#38417#38698#0" />
+            <element signature="e#38539#38540#0" />
+            <element signature="e#38874#39304#0" />
+            <element signature="e#38927#39067#0" />
+            <element signature="e#39088#39175#0" />
+            <element signature="e#39391#39513#0" />
+            <element signature="e#39839#40311#0" />
+            <element signature="e#40410#40476#0" />
+            <element signature="e#40798#44450#0" />
+            <element signature="e#40864#43854#0" />
+            <element signature="e#41950#42124#0" />
+            <element signature="e#42172#42356#0" />
+            <element signature="e#42699#42974#0" />
+            <element signature="e#43289#43762#0" />
+            <element signature="e#43324#43518#0" />
+            <element signature="e#43558#43684#0" />
+            <element signature="e#43890#44442#0" />
+            <element signature="e#44843#44956#0" />
+            <element signature="e#44979#45544#0" />
+            <element signature="e#45028#45501#0" />
+            <element signature="e#45187#45383#0" />
+            <element signature="e#45225#45371#0" />
+            <element signature="e#45275#45355#0" />
+            <element signature="e#45548#45943#0" />
+            <element signature="e#45607#45939#0" />
+            <element signature="e#45673#45857#0" />
+            <element signature="e#45711#45845#0" />
+            <element signature="e#45761#45829#0" />
+            <element signature="e#46088#46264#0" />
+            <element signature="e#46290#46474#0" />
+            <element signature="e#46426#46470#0" />
+            <element signature="e#46568#46702#0" />
+            <element signature="e#46783#46931#0" />
+            <element signature="e#46998#47120#0" />
+            <element signature="e#47219#47350#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
